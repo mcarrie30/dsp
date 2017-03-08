@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> My preferred choice will be Nano. I am used to using nano and feel that it will be suitable for all my needs.
 
 --
 
@@ -89,6 +89,5 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
+>> I will probably use Rodeo or Spyder. I am very used to Rstudio, and Rodeo seems to be the Rstudio for Python. One concern is that Rodeo still seems relatively new. If there are too many features that are not implemented yet, then I will switch to Spyder.
  
