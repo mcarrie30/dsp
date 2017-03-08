@@ -19,7 +19,18 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > pwd - show current working directory path
+pwd - creating a directory
+rmdir - deleting a directory
+touch - creating a file using `touch` command
+rm - deleting a file
+mv - renaming a file
+ls -a - listing hidden files
+cp file.txt randomdirectory/ copying a file from one directory to another
+sudo - become super user
+chown - change ownership
+chmod - change permission
+man - manual page
 
 ---
 
@@ -34,7 +45,14 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 'ls' - lists files and directories except hidden files
+'ls -a' - list all files + hidden files. (does not show permissions though, ls -la would)
+'ls -l' - lists all files except hidden files. Shows owners and permissions
+'ls - lh' - lists all files except hidden files. Shows bite size of files
+'ls -lah' - shows all files including hidden files with bite size
+'ls -t' - sorts directories by last modified date
+'ls -glp' - lists files, except directories are color coordinated.
+
 
 ---
 
@@ -42,7 +60,7 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > ls -la, ls -Gl, ls -u, ls -R, ls -GR
 
 ---
 
@@ -50,7 +68,6 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > xargs takes the output of a command and uses the result as an argument for another action. For example, if i want to delete all txt files in a particular directory I would use  find *.txt | xargs rm
  
 
