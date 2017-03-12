@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Lists and tuples are similar in that they are both sequences. Lists and tuples differ in that tuples are immutable. This allows tuples to be more code safe because the data cannot be changed which also allows tuples to be used as dictionary keys. Tuples tend to be much faster than lists because the objects inside are a constant set of values. 
 
 ---
 
@@ -51,7 +51,7 @@ date_start = '01-02-2013'
 date_stop = '07-28-2015'
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+>> 937 Days
 
 b.  
 ```
@@ -59,7 +59,7 @@ date_start = '12312013'
 date_stop = '05282015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+>> 513 Days
 
 c.  
 ```
@@ -67,7 +67,7 @@ date_start = '15-Jan-1994'
 date_stop = '14-Jul-2015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE  (answer will be in number of days)
+>> 7850 Days
 
 Place code in this file: [q5_datetime.py](python/q5_datetime.py)
 
