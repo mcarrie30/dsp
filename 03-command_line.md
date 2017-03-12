@@ -19,18 +19,18 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > pwd - show current working directory path
-pwd - creating a directory
-rmdir - deleting a directory
-touch - creating a file using `touch` command
-rm - deleting a file
-mv - renaming a file
-ls -a - listing hidden files
-cp file.txt randomdirectory/ copying a file from one directory to another
-sudo - become super user
-chown - change ownership
-chmod - change permission
-man - manual page
+> > pwd - show current working directory path  
+pwd - creating a directory  
+rmdir - deleting a directory  
+touch - creating a file using `touch` command  
+rm - deleting a file  
+mv - renaming a file  
+ls -a - listing hidden files  
+cp file.txt randomdirectory/ copying a file from one directory to another  
+sudo - become super user  
+chown - change ownership  
+chmod - change permission  
+man - manual page  
 
 ---
 
@@ -45,13 +45,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > 'ls' - lists files and directories except hidden files
-'ls -a' - list all files + hidden files. (does not show permissions though, ls -la would)
-'ls -l' - lists all files except hidden files. Shows owners and permissions
-'ls - lh' - lists all files except hidden files. Shows bite size of files
-'ls -lah' - shows all files including hidden files with bite size
-'ls -t' - sorts directories by last modified date
-'ls -glp' - lists files, except directories are color coordinated.
+> > 'ls' - lists files and directories except hidden files  
+'ls -a' - list all files + hidden files. (does not show permissions though, ls -la would)  
+'ls -l' - lists all files except hidden files. Shows owners and permissions  
+'ls - lh' - lists all files except hidden files. Shows bite size of files  
+'ls -lah' - shows all files including hidden files with bite size  
+'ls -t' - sorts directories by last modified date  
+'ls -glp' - lists files, except directories are color coordinated.  
 
 
 ---
