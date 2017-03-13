@@ -30,7 +30,13 @@ Performance differs significantly between finding elements in a set or a list. I
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Python's lambda is a method of creating an anonymous function. An anonymous function might be used for memory management. A specific reason a lambda might be used is when manipulating and filtering dataframes, many functions may be used. Too many variables and functions may adversely create memory leakage. An example of lamda in the argument sorted:    
+
+```
+shopping_list = [('Gatorade', 'Green Juice', 'Granola Bars'), ('Color Pencils', 'Clam Chowder', 'Chairs'), ('Tylenol', 'Time Watch', 'Teddy Bear')] 
+
+sorted(shopping_list, key=lambda x: x[2][1])
+```
 
 ---
 
