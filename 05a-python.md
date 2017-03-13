@@ -45,8 +45,9 @@ sorted(shopping_list, key=lambda x: x[2][1])
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
 >> List comprehensions allows python programmers to create complex and elegant lists using mathematical notations. Map and filters are methods applied to lists that can manipulate functions to create desired result.   
-For example:    
-``` 
+For example:
+
+
 **List Comprehension**
 listcomp = [2**i for i in range(10)]
 
@@ -66,7 +67,6 @@ f = {x for x in range(0,10)}
 **Dictionary Comprehension**
 mydictionary = dict([(i, 'oclock') for i in range(1,10)])
 
-```
 
 ---
 
