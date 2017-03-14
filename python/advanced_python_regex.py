@@ -19,7 +19,6 @@ df = df.replace(['Ph.D.'], ['Ph.D'], regex = True)
 df = df.replace(['PhD'], ['Ph.D'], regex = True)
 df = df.replace(['ScD'], ['Sc.D'], regex = True)
 
-
 list1 = list(df['degree'])
 
 list2 = []
@@ -30,7 +29,6 @@ def listing(x):
     return(list2)
 
 listing(list1)
-
 
 def un_list(x):
     newlist = []
@@ -45,10 +43,9 @@ final_list = list(filter(lambda x: len(x) < 5, final_list))
 final_list = list(filter(lambda x: x != '0', final_list))
 
 degree_df = pd.DataFrame(final_list)
-
 degree_df.groupby(0).size()
 
-#
+
 #JD       1
 #M.S.     1
 #MA       1
