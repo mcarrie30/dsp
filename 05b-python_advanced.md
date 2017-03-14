@@ -33,7 +33,12 @@ Sc.D     6
 
 #### Q2. Find how many different titles there are, and their frequencies:  Ex:  Assistant Professor, Professor
 
->> REPLACE THIS WITH YOUR RESPONSE
+>> 
+```
+Assistant Professor of Biostatistics    12
+Associate Professor of Biostatistics    12
+Professor of Biostatistics              13
+```
 
 
 #### Q3. Search for email addresses and put them in a list.  Print the list of email addresses.
