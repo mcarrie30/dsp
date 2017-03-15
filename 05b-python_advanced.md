@@ -91,13 +91,7 @@ Print the first 3 key and value pairs of the dictionary:
 
 >> 
 ```
-{'Bellamy': ['Sc.D',
-  'Associate Professor of Biostatistics',
-  'bellamys@mail.med.upenn.edu'],
- 'Bilker': ['Ph.D', 'Professor of Biostatistics', 'warren@upenn.edu'],
- 'Bryan': ['Ph.D',
-  'Assistant Professor of Biostatistics',
-  'bryanma@upenn.edu']
+{'Shou': ['Ph.D', 'Assistant Professor of Biostatistics', 'hshou@mail.med.upenn.edu'], 'Bilker': ['Ph.D', 'Professor of Biostatistics', 'warren@upenn.edu'], 'French': ['Ph.D', 'Associate Professor of Biostatistics', 'bcfrench@mail.med.upenn.edu']}
  ```
 
 #### Q7.  The previous dictionary does not have the best design for keys.  Create a new dictionary with keys as:
