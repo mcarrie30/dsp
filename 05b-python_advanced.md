@@ -102,7 +102,9 @@ professor_dict = {('Susan', 'Ellenberg'): ['Ph.D.', 'Professor', 'sellenbe@upenn
 
 Print the first 3 key and value pairs of the dictionary:
 
->> {('A.', 'Localio'): ['JD MA MPH MS Ph.D',
+>> 
+```
+{('A.', 'Localio'): ['JD MA MPH MS Ph.D',
   'Associate Professor of Biostatistics',
   'rlocalio@upenn.edu'],
  ('Alisa', 'Stephens'): ['Ph.D',
@@ -111,10 +113,13 @@ Print the first 3 key and value pairs of the dictionary:
  ('Andrea', 'Troxel'): ['Sc.D',
   'Professor of Biostatistics',
   'atroxel@mail.med.upenn.edu']}
+```
 
 #### Q8.  It looks like the current dictionary is printing by first name.  Print out the dictionary key value pairs based on alphabetical orders of the last name of the professors
 
->> {('Bellamy', 'Scarlett'): ['Sc.D',
+>> 
+```
+{('Bellamy', 'Scarlett'): ['Sc.D',
   'Associate Professor of Biostatistics',
   'bellamys@mail.med.upenn.edu'],
  ('Bilker', 'Warren'): ['Ph.D',
@@ -123,6 +128,7 @@ Print the first 3 key and value pairs of the dictionary:
  ('Bryan', 'Matthew'): ['Ph.D',
   'Assistant Professor of Biostatistics',
   'bryanma@upenn.edu']}
+```
 
 Place your code in this file: [advanced_python_dict.py](python/advanced_python_dict.py)
 
