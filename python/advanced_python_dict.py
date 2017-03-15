@@ -19,6 +19,6 @@ question7df = df.filter(['firstname','lastname','degree','title', 'email'], axis
 dict2 = question7df.set_index(['firstname', 'lastname']).T.to_dict('list')
 dict2
 
-###Question 8 ***
+###Question 8 ###
 dict3 = question7df.set_index(['lastname', 'firstname']).T.to_dict('list')
 dict3
