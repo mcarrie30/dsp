@@ -39,12 +39,10 @@ b_plngth = CohenEffectSize(firsts.prglngth, others.prglngth)
 print(b_wgt)
 print(b_plngth)
 
-```python
-
+```
 
 ### Conclusion
 
-```
 Based on Cohen's d to quantify the difference betweent the groups, it seems that the first babies tend to be lighter by very slightly. The weight computation(-.0086) show that the pregnancy weights tend to be more affected to the child number, than the length of the pregnancy(0.028) is to the child number
 
 ---
