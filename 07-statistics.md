@@ -108,9 +108,10 @@ print('% of Elvis having identical twin:',  elvis_id_twin)
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
-```
+***
 Frequentist and Bayesian statistics are both statistical methods that measure probability. Frequentist use the frequency of events to measure probabilites versus Bayesians whom use their outideknowledge about an event to measure probability. One example (VERY VERY THERORETICAL) is that if a frequentist and a bayesian were measuring pizza thickness in Chicago, a frequentist might measure all the pizzas in Chicago and measure the average thickness, and apply this to the whole USA to make an estimate that the average thickness of pizza in the USA is 1 inch. On the other hand, a Bayesian statistician would use his/her prior knowledge on pizza and remember that New York pizza is significantly thinner. He/She would then find a measurement in the middle of the two different types of pizzas and apply it to the USA to come up with a an average pizza thickness
-```
+***
+
 ---
 
 ## <a name="section-e"></a>5.  Optional Exercises
